@@ -1,0 +1,71 @@
+@media  screen and (max-width: 1200px) {
+  #nav {
+    display: none;
+  }
+  .left-nav-logo span {
+    color: white;
+    }
+  #hamburger-nav {
+    display: contents;
+    background-color: rgba(0, 0, 0, 0.404);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    min-width: 100%;
+  }
+  .link-button {
+    min-width: 100vw;
+  }
+  .home-container {
+    padding: 0;
+  }
+  .home-container h6 {
+    font-size: 15px;
+  }
+  .home-container h1 {
+    font-size: 40px;
+  }
+
+  /* about section */
+  .heading-about h2 {
+    font-size: 30px;
+  }
+  .p-about {
+    font-size: 10px;
+  }
+  .services {
+    flex-wrap: wrap;
+  }
+  /* consult div */
+  .consult {
+    flex-wrap: wrap;
+  }
+  /* exclusive services */
+  .exclusive-services h2 {
+    font-size: 30px;
+  }
+  .corner-box-four {
+    flex-wrap: wrap;
+  }
+
+  /* section work */
+  .work-heading h2 {
+    font-size: 30px;
+  }
+  .work-details {
+    flex-wrap: wrap;
+  }
+
+  /* submit section */
+  .acc-par-div {
+    flex-wrap: wrap ;
+  }
+  .accordion {
+    width: 100%;
+  }
+  /* footer section */
+  #footer {
+    flex-wrap: wrap;
+  }
+}
